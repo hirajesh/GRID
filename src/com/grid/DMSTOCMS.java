@@ -46,7 +46,6 @@ public class DMSTOCMS {
 		//System.setProperty("webdriver.chrome.driver","D:\\Selenium\\add jar files\\chromedriver.exe"); 
 		System.setProperty("webdriver.chrome.driver","G:\\SELENIUM ECLIPSE\\chromedriver.exe");
 		
-		
 		DesiredCapabilities cap=DesiredCapabilities.chrome();
 		cap.setVersion("63.0.3239.132");		
 		cap.setPlatform(Platform.WINDOWS);
